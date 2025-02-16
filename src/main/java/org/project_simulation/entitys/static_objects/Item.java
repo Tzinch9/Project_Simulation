@@ -1,6 +1,5 @@
 package org.project_simulation.entitys.static_objects;
 
-import org.project_simulation.Cell;
 import org.project_simulation.entitys.Entity;
 
 /**
@@ -8,7 +7,5 @@ import org.project_simulation.entitys.Entity;
  */
 
 abstract public class Item extends Entity {
-    public Item(Cell cell) {
-        super(cell);
-    }
+    public Item() {}
 }
